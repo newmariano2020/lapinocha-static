@@ -1,0 +1,605 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (max-width:990px) {
+
+    /*header*/
+
+    .header-right {
+        width: 50px;
+    }
+
+    .header-left {
+        width: 170px;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .body-div {
+        height: 1px;
+    }
+
+    .div-header_logos-1 {
+        display: none;
+    }
+
+    .div-header_logos-2 {
+        display: none;
+    }
+
+    .row-header {
+        background: #f08e76;
+        justify-content: space-between;
+        height: 60px;
+        align-items: center;
+    }
+
+    .div-link_header {
+        display: none;
+    }
+
+    .div-header_logos-1 {
+        display: none;
+    }
+
+    .div-header_logos-2 {
+        display: none;
+    }
+
+    /*body*/
+    .conocenos-body_top {
+        background-color: #fead99;
+        height: 180px;
+    }
+
+    .col-body_top {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .conocenos-body_top-tittle {
+        font-size: 29px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-weight: 300;
+        font-family: "Montserrat";
+        text-align: center;
+        margin-top: 56px;
+        margin-bottom: 5px;
+    }
+
+    .conocenos-body_top-text {
+        font-size: 15px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+
+    /*body top*/
+    /*sucursales*/
+
+    .sucursales-title {
+        font-size: 30px;
+        letter-spacing: 0px;
+        color: #2b2b2b;
+        font-weight: 300;
+        line-height: 42px;
+        font-family: "Montserrat";
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .row-sucursales_mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sucursales-box {
+        display: flex;
+        flex-direction: column;
+        width: 192px;
+        margin-top: 32px;
+
+    }
+
+    .sucursales-icon {
+        margin-right: 10px;
+    }
+
+    .col-sucursales_align {
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-sucursales_align-1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sucursales-city_title {
+        font-size: 19px;
+        letter-spacing: 0px;
+        color: #2b2b2b;
+        font-weight: 700;
+        font-family: "Montserrat";
+    }
+
+    .row-desktop {
+        display: none;
+    }
+
+    .col-desktop-2_a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-desktop-2_b {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sucursales-box_last {
+        margin-bottom: 48px;
+    }
+
+    .row-sucursales_title-middle, .row-sucursales_mobile-middle {
+        background-color: #e9e9e9;
+    }
+
+    .sucursales-box_botton {
+        margin-bottom: 32px;
+    }
+
+    /*sucursales*/
+
+
+    /* footer */
+    .style-footer_a {
+        background-color: #525252;
+        display: flex;
+    }
+
+    .container-footer_a {
+        display: flex;
+    }
+
+    .row-middle_down {
+        margin-top: 6px;
+    }
+
+    .row-footer_a-1 {
+        margin-left: 15px;
+        padding-top: 30px;
+    }
+
+    .row-footer_a-2 {
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .span-footer_title {
+        font-family: "montserrat";
+        font-size: 13px;
+        letter-spacing: 0px;
+        line-height: 19px;
+        color: #ffffff;
+        display: contents;
+    }
+
+    .span-footer_subtitle-1 {
+        font-family: "montserrat-regular";
+        font-size: 13px;
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    .span-footer_subtitle {
+        font-family: "montserrat-regular";
+        font-size: 13px;
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    .logo-footer_social {
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .col-footer_a-3 {
+        padding: 10px;
+    }
+
+    .col-footer_a-4 {
+        margin-bottom: -10px;
+    }
+
+    .style-footer_b {
+
+        background-color: #494746;
+    }
+
+    .down-footer_rights {
+        font-size: 10px;
+        letter-spacing: 0px;
+        line-height: 15px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:578px) and (max-width:990px) {
+    /*sucursales*/
+    .sucursales-title {
+        font-size: 30px;
+        letter-spacing: 0px;
+        color: #2b2b2b;
+        font-weight: 300;
+        line-height: 42px;
+        font-family: "Montserrat";
+        text-align: center;
+        margin-top: 40px;
+    }
+    .row-desktop-1 {
+        justify-content: center;
+    }
+
+    .row-sucursales_mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sucursales-box {
+        display: flex;
+        flex-direction: column;
+        width: 192px;
+        margin-top: 32px;
+
+    }
+
+    .sucursales-icon {
+        margin-right: 10px;
+    }
+
+    .col-sucursales_align {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .col-sucursales_align-1 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .sucursales-city_title {
+        font-size: 19px;
+        letter-spacing: 0px;
+        color: #2b2b2b;
+        font-weight: 700;
+        font-family: "Montserrat";
+    }
+
+    .row-desktop {
+        display: none;
+    }
+
+    .col-desktop-2_a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-desktop-2_b {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sucursales-box_last {
+        margin-bottom: 48px;
+    }
+
+    .row-sucursales_title-middle, .row-sucursales_mobile-middle {
+        background-color: #e9e9e9;
+    }
+
+    .sucursales-box_botton {
+        margin-bottom: 32px;
+    }
+    /*sucursales*/
+    
+    .header-style {
+        background: #f08e76;
+    }
+
+    .row-header {
+        justify-content: space-between;
+        height: 60px;
+        align-items: center;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .div-header_logos-1 {
+        display: none;
+    }
+
+    .div-header_logos-2 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:990px) {
+
+    .logo_mobile-header {
+        display: none;
+    }
+
+    .header-style {
+        background: #f08e76;
+    }
+
+    .header-left {
+        width: 170px;
+    }
+
+    .row-header {
+        height: 60px;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .icon-right_header {
+        margin-right: 10px;
+        margin-left: 25px;
+    }
+
+    .header-right {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        justify-content: flex-end;
+    }
+
+    .div-link_header {
+        display: flex;
+        flex-direction: row;
+        margin-right: 10px;
+    }
+
+    .link-header {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 13px;
+        line-height: 42px;
+        font-weight: 600;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+
+    .div-header_logos-1 {
+        align-self: center;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+
+    .div-header_logos-2 {
+        align-self: center;
+    }
+
+
+    /*footer*/
+    .style-footer_a {
+        background-color: #525252;
+        display: flex;
+    }
+
+    .container-footer_a {
+        display: flex;
+    }
+
+    .row-footer_a-1 {
+        margin-left: 2%;
+        padding-top: 30px;
+    }
+
+    .row-footer_a-2 {
+        padding: 30px;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .span-footer_title {
+        font-family: "montserrat";
+        font-size: 13px;
+        letter-spacing: 0px;
+        line-height: 19px;
+        color: #ffffff;
+        display: contents;
+    }
+
+    .span-footer_subtitle-1 {
+        font-family: "montserrat-regular";
+        font-size: 13px;
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    .span-footer_subtitle {
+        font-family: "montserrat-regular";
+        font-size: 13px;
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    .logo-footer_social {
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .col-footer_a-4 {
+        margin-bottom: -10px;
+    }
+
+    .style-footer_b {
+
+        background-color: #494746;
+    }
+
+    .down-footer_rights {
+        font-size: 10px;
+        letter-spacing: 0px;
+        line-height: 15px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+
+    /*footer*/
+    /*header*/
+    .conocenos-body_top {
+        background-color: #fead99;
+        height: 232px;
+
+    }
+
+    .col-body_top {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .conocenos-body_top-tittle {
+        font-size: 49px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-weight: 300;
+        font-family: "Montserrat";
+        text-align: center;
+        margin-top: 56px;
+        margin-bottom: 5px;
+    }
+
+    .conocenos-body_top-text {
+        font-size: 20px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Montserrat";
+        text-align: center;
+        width: 55%;
+    }
+
+    /*header*/
+    /*body*/
+
+    .sucursales-title {
+        font-size: 50px;
+        letter-spacing: -1px;
+        line-height: 160px;
+        color: #2b2b2b;
+        font-weight: 300;
+        font-family: "Montserrat";
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .sucursales-text {
+        font-size: 24px;
+    }
+
+    .row-sucursales_mobile {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .row-dektop_style {
+        margin-bottom: 60px;
+    }
+
+    .row-desktop {
+        justify-content: space-evenly;
+    }
+
+    .sucursales-box {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-top: 32px;
+
+    }
+
+
+    .sucursales-city_title {
+        font-size: 30px;
+        letter-spacing: 0px;
+        color: #2b2b2b;
+        font-weight: 700;
+        font-family: "Montserrat";
+    }
+
+    .sucursales-box_last {
+        margin-bottom: 80px;
+    }
+
+    .row-sucursales_title-middle, .row-sucursales_mobile-middle, .row-desktop-middle {
+        background-color: #e9e9e9;
+    }
+
+    .col-desktop-2_a {
+        margin-left: 12.5%;
+
+    }
+
+    .col-desktop-2_b {
+        margin-left: 13%;
+
+    }
+
+
+    .row-desktop-middle .col-desktop-2_a, .col-desktop-2_a {
+        margin-bottom: 80px;
+    }
+
+    .sucursales-box_botton {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*body*/
+
+
+    .conocenos-col {
+        margin-bottom: 82px;
+    }
+
+
+
+    .conocenos-div_body {
+        margin-top: 140px;
+    }
+
+    .conocenos-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}

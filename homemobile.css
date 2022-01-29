@@ -1,0 +1,587 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+@media only screen and (min-width:578px) and (max-width:990px) {
+
+    .header-style {
+        background: #f08e76;
+
+    }
+    .row-header {
+        justify-content: space-between;
+        height: 60px;
+        align-items: center;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .div-header_logos-1 {
+        display: none;
+    }
+
+    .div-header_logos-2 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:990px) {
+    .logo_mobile-header {
+        display: none;
+    }
+
+    .header-style {
+        background: #f08e76;
+    }
+
+    .header-left {
+        width: 170px;
+    }
+
+    .row-header {
+        height: 60px;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .icon-right_header {
+        margin-right: 10px;
+        margin-left: 25px;
+    }
+
+    .header-right {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        justify-content: flex-end;
+    }
+
+    .div-link_header {
+        display: flex;
+        flex-direction: row;
+        margin-right: 10px;
+    }
+
+    .link-header {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 13px;
+        line-height: 42px;
+        font-weight: 600;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+
+    .div-header_logos-1 {
+        align-self: center;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+
+    .div-header_logos-2 {
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width:577px) {
+
+    .header-right {
+        width: 50px;
+    }
+    .header-left {
+        width: 170px;
+    }
+    .link-header {
+        display: none;
+    }
+    .body-div {
+        height: 1px;
+    }
+
+    .div-header_logos-1 {
+        display: none;
+    }
+
+    .div-header_logos-2 {
+        display: none;
+    }
+
+    .row-header {
+        background: #f08e76;
+        justify-content: space-between;
+        height: 60px;
+        align-items: center;
+    }
+
+    .div-link_header {
+        display: none;
+    }
+
+    .div-header_logos-1 {
+        display: none;
+    }
+
+    .div-header_logos-2 {
+        display: none;
+    }
+
+    .middle-top_section {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .img-top_section-1 {
+        background-image: url("img/banner-home-1.png");
+        height: 612px;
+        width: 100%;
+        background-size: cover;
+        display: block;
+        background-position: center;
+        background-repeat: non-repeat;
+    }
+
+    .middle-down_image-1 {
+        background-image: url("img/fondo-medio-back.png");
+        background-size: 100%;
+        height: 170px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .down-section_row {
+        justify-content: center;
+        margin-right: 5%;
+        margin-left: 7%;
+        margin-bottom: 26px;
+        margin-top: 18px;
+    }
+
+    .middle-down_section {
+        margin-bottom: 0;
+    }
+
+    .middle-down-text_1 {
+        font-size: 23px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Montserrat-bold";
+        text-align: center;
+    }
+
+    .middle-down-text_2 {
+        display: block;
+        font-size: 23px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Montserrat-bold";
+        text-align: center;
+        margin-top: -4px;
+    }
+
+    .middle-down-text_3 {
+        font-size: 17px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Montserrat-medium";
+        text-align: center;
+        display: block;
+        padding-left: 2%;
+    }
+
+    .down-section_image-1 {
+        background-image: url("img/estamos-cerca-home.png");
+        height: 320px;
+        background-size: 100%;
+        display: block;
+        background-position: center;
+        background-repeat: non-repeat;
+    }
+
+    .down-section {
+        height: 40px;
+        width: 170px;
+        border: #ffffff 2px solid;
+        background-color: transparent;
+        border-radius: 30px;
+        margin-top: 10px;
+    }
+
+    .down-section_image-1, .down-section_image-2, .down-section_image-3 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .down-section_parraf {
+        margin-bottom: 20px;
+        font-size: 25px;
+        letter-spacing: 0px;
+        line-height: 42px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Montserrat";
+        text-align: center;
+        display: block;
+    }
+
+    .down-section_button-text {
+        font-size: 15px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+
+    .down-section_image-2 {
+        background-image: url("img/sabores-supremos-home.png");
+        height: 320px;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: non-repeat;
+        margin-top: 18px;
+    }
+
+    .down-section_image-3 {
+        background-image: url("img/somos-la-pinocha-home.png");
+        height: 320px;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: non-repeat;
+        margin-top: 18px;
+    }
+
+    .style-footer_a {
+        background-color: #525252;
+        display: flex;
+    }
+
+    .container-footer_a {
+        display: flex;
+    }
+
+    .row-middle_down {
+        margin-top: 6px;
+    }
+
+    .row-footer_a-1 {
+        margin-left: 15px;
+        padding-top: 30px;
+    }
+
+    .row-footer_a-2 {
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .span-footer_title {
+        font-family: "montserrat";
+        font-size: 13px;
+        letter-spacing: 0px;
+        line-height: 19px;
+        color: #ffffff;
+        display: contents;
+    }
+
+    .span-footer_subtitle-1 {
+        font-family: "montserrat-regular";
+        font-size: 13px;
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    .span-footer_subtitle {
+        font-family: "montserrat-regular";
+        font-size: 13px;
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    .logo-footer_social {
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .col-footer_a-3 {
+        padding: 10px;
+    }
+
+    .col-footer_a-4 {
+        margin-bottom: -10px;
+    }
+
+    .style-footer_b {
+
+        background-color: #494746;
+    }
+
+    .down-footer_rights {
+        font-size: 10px;
+        letter-spacing: 0px;
+        line-height: 15px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:576px) {
+
+
+    .middle-top_section {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .body-middle_top {
+        background-image: url("img/banner-home-1.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: non-repeat;
+    }
+
+    .body-div {
+        height: 1px;
+    }
+
+    .row-middle_down {
+        padding-top: 23px;
+    }
+
+    .img-top_section-1 {
+        height: 612px;
+        width: 100%;
+        display: block;
+    }
+
+    .body-middle {
+        background-image: url("img/fondo-medio-back.png");
+        background-size: 100%;
+        height: 170px;
+    }
+
+    .div-middle-down_text {
+        margin-bottom: 15px;
+    }
+
+    .middle-down_section {
+        margin-top: 30px;
+    }
+
+    .middle-down_image-1 {
+        padding-top: 15px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .down-section_row {
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .carousel-item_img-1 {
+        background-image: url("img/banner-home-1.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: non-repeat;
+    }
+
+    .carousel-item_img-2 {
+        background-image: url("img/banner-home-2.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: non-repeat;
+    }
+
+    .carousel-item_img-3 {
+        background-image: url("img/banner-home-3.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: non-repeat;
+    }
+
+    .carousel-item_img-4 {
+        background-image: url("img/banner-home-4.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: non-repeat;
+    }
+
+    .middle-down-text_1 {
+        font-size: 27px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Montserrat-bold";
+        text-align: center;
+    }
+
+    .middle-down-text_2 {
+        font-size: 27px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Montserrat-bold";
+        text-align: center;
+    }
+
+    .container-down_section {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .middle-down-text_3 {
+        font-size: 22px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Montserrat-medium";
+        text-align: center;
+        display: block;
+        padding-left: 2%;
+    }
+
+    .down-section_image-1 {
+        background-image: url("img/estamos-cerca-home.png");
+        height: 500px;
+        width: 325px;
+        display: block;
+        background-repeat: non-repeat;
+    }
+
+    .down-section_image-2 {
+        background-image: url("img/sabores-supremos-home.png");
+        width: 325px;
+        height: 500px;
+        display: block;
+        background-repeat: non-repeat;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .down-section_image-3 {
+        background-image: url("img/somos-la-pinocha-home.png");
+        height: 500px;
+        width: 325px;
+        display: block;
+        background-repeat: non-repeat;
+    }
+
+
+    .down-section {
+        height: 40px;
+        width: 170px;
+        border: #ffffff 2px solid;
+        background-color: transparent;
+        border-radius: 30px;
+        margin-top: 10px;
+    }
+
+    .down-section_image-1, .down-section_image-2, .down-section_image-3 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .down-section_parraf {
+        margin-bottom: 10px;
+        font-size: 25px;
+        letter-spacing: 0px;
+        line-height: 42px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Montserrat";
+        text-align: center;
+        display: block;
+    }
+
+    .down-section_button-text {
+        font-size: 15px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+
+    .style-footer_a {
+        background-color: #525252;
+        display: flex;
+    }
+
+    .container-footer_a {
+        display: flex;
+    }
+
+    .row-footer_a-1 {
+        margin-left: 2%;
+        padding-top: 30px;
+    }
+
+    .row-footer_a-2 {
+        padding: 30px;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .span-footer_title {
+        font-family: "montserrat";
+        font-size: 13px;
+        letter-spacing: 0px;
+        line-height: 19px;
+        color: #ffffff;
+        display: contents;
+    }
+
+    .span-footer_subtitle-1 {
+        font-family: "montserrat-regular";
+        font-size: 13px;
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    .span-footer_subtitle {
+        font-family: "montserrat-regular";
+        font-size: 13px;
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    .logo-footer_social {
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .col-footer_a-4 {
+        margin-bottom: -10px;
+    }
+
+    .style-footer_b {
+
+        background-color: #494746;
+    }
+
+    .down-footer_rights {
+        font-size: 10px;
+        letter-spacing: 0px;
+        line-height: 15px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+
+
+}

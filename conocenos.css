@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (max-width:577px) {
+
+    /*header*/
+
+    .header-right {
+        width: 50px;
+    }
+
+    .header-left {
+        width: 170px;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .body-div {
+        height: 1px;
+    }
+
+    .div-header_logos-1 {
+        display: none;
+    }
+
+    .div-header_logos-2 {
+        display: none;
+    }
+
+    .row-header {
+        background: #f08e76;
+        justify-content: space-between;
+        height: 60px;
+        align-items: center;
+    }
+
+    .div-link_header {
+        display: none;
+    }
+
+    .div-header_logos-1 {
+        display: none;
+    }
+
+    .div-header_logos-2 {
+        display: none;
+    }
+
+    /*body*/
+    .conocenos-body_top {
+        background-color: #fead99;
+        height: 232px;
+
+    }
+
+    .col-body_top {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .conocenos-body_top-tittle {
+        font-size: 29px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-weight: 300;
+        font-family: "Montserrat";
+        text-align: center;
+        margin-top: 56px;
+        margin-bottom: 5px;
+    }
+
+    .conocenos-body_top-text {
+        font-size: 15px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+
+    .img-inthemiddle {
+        height: 124px;
+        width: 124px;
+        object-fit: cover;
+    }
+
+    .conocenos-body_down-tittle {
+        width: 328px;
+        font-size: 19px;
+        letter-spacing: 0px;
+        line-height: 27px;
+        color: #2b2b2b;
+        font-weight: 700;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+
+    .conocenos-body_down-text {
+        width: 328px;
+        font-size: 17px;
+        letter-spacing: 0px;
+        line-height: 27px;
+        color: #2b2b2b;
+        font-family: "Montserrat";
+        text-align: center;
+        font-weight: 700;
+        margin-top: 38px;
+    }
+
+    .conocenos-down-text_last {
+        margin-bottom: 72px;
+    }
+
+    .img-inthemiddle {
+        margin-top: 20px;
+    }
+
+    .conocenos-div_body {
+        margin-top: 140px;
+    }
+
+    .conocenos-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* footer */
+    .style-footer_a {
+        background-color: #525252;
+        display: flex;
+    }
+
+    .container-footer_a {
+        display: flex;
+    }
+
+    .row-middle_down {
+        margin-top: 6px;
+    }
+
+    .row-footer_a-1 {
+        margin-left: 15px;
+        padding-top: 30px;
+    }
+
+    .row-footer_a-2 {
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .span-footer_title {
+        font-family: "montserrat";
+        font-size: 13px;
+        letter-spacing: 0px;
+        line-height: 19px;
+        color: #ffffff;
+        display: contents;
+    }
+
+    .span-footer_subtitle-1 {
+        font-family: "montserrat-regular";
+        font-size: 13px;
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    .span-footer_subtitle {
+        font-family: "montserrat-regular";
+        font-size: 13px;
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    .logo-footer_social {
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .col-footer_a-3 {
+        padding: 10px;
+    }
+
+    .col-footer_a-4 {
+        margin-bottom: -10px;
+    }
+
+    .style-footer_b {
+
+        background-color: #494746;
+    }
+
+    .down-footer_rights {
+        font-size: 10px;
+        letter-spacing: 0px;
+        line-height: 15px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:578px) and (max-width:990px) {
+
+    .header-style {
+        background: #f08e76;
+    }
+
+    .row-header {
+        justify-content: space-between;
+        height: 60px;
+        align-items: center;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .div-header_logos-1 {
+        display: none;
+    }
+
+    .div-header_logos-2 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:990px) {
+
+    .logo_mobile-header {
+        display: none;
+    }
+
+    .header-style {
+        background: #f08e76;
+    }
+
+    .header-left {
+        width: 170px;
+    }
+
+    .row-header {
+        height: 60px;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .icon-right_header {
+        margin-right: 10px;
+        margin-left: 25px;
+    }
+
+    .header-right {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        justify-content: flex-end;
+    }
+
+    .div-link_header {
+        display: flex;
+        flex-direction: row;
+        margin-right: 10px;
+    }
+
+    .link-header {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 13px;
+        line-height: 42px;
+        font-weight: 600;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+
+    .div-header_logos-1 {
+        align-self: center;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+
+    .div-header_logos-2 {
+        align-self: center;
+    }
+}
+
+@media only screen and (min-width:576px) {
+    .style-footer_a {
+        background-color: #525252;
+        display: flex;
+    }
+
+    .container-footer_a {
+        display: flex;
+    }
+
+    .row-footer_a-1 {
+        margin-left: 2%;
+        padding-top: 30px;
+    }
+
+    .row-footer_a-2 {
+        padding: 30px;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .span-footer_title {
+        font-family: "montserrat";
+        font-size: 13px;
+        letter-spacing: 0px;
+        line-height: 19px;
+        color: #ffffff;
+        display: contents;
+    }
+
+    .span-footer_subtitle-1 {
+        font-family: "montserrat-regular";
+        font-size: 13px;
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    .span-footer_subtitle {
+        font-family: "montserrat-regular";
+        font-size: 13px;
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    .logo-footer_social {
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .col-footer_a-4 {
+        margin-bottom: -10px;
+    }
+
+    .style-footer_b {
+
+        background-color: #494746;
+    }
+
+    .down-footer_rights {
+        font-size: 10px;
+        letter-spacing: 0px;
+        line-height: 15px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-align: center;
+    }
+    .conocenos-body_top {
+        background-color: #fead99;
+        height: 232px;
+
+    }
+
+    .col-body_top {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .conocenos-body_top-tittle {
+        font-size: 29px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-weight: 300;
+        font-family: "Montserrat";
+        text-align: center;
+        margin-top: 56px;
+        margin-bottom: 5px;
+    }
+
+    .conocenos-body_top-text {
+        font-size: 15px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Montserrat";
+        text-align: center;
+        width: 55%;
+    }
+
+    .img-inthemiddle {
+        height: 124px;
+        width: 124px;
+        object-fit: cover;
+    }
+
+    .conocenos-body_down-tittle {
+        width: 328px;
+        font-size: 19px;
+        letter-spacing: 0px;
+        line-height: 27px;
+        color: #2b2b2b;
+        font-weight: 700;
+        font-family: "Montserrat";
+        text-align: center;
+        width: 50%;
+    }
+
+    .conocenos-body_down-text {
+        width: 328px;
+        font-size: 17px;
+        letter-spacing: 0px;
+        line-height: 27px;
+        color: #2b2b2b;
+        font-family: "Montserrat";
+        text-align: center;
+        width: 66%;
+    }
+    .conocenos-down-text-1 {
+        margin-top: 70px;
+    }
+    .conocenos-down-text-2 {
+        margin-top: 72px;
+    }
+    .conocenos-down-text-3 {
+        margin-bottom: 72px;
+    }
+
+    .conocenos-col {
+        margin-bottom: 82px;
+    }
+
+    .img-inthemiddle {
+        margin-top: 20px;
+    }
+
+    .conocenos-div_body {
+        margin-top: 140px;
+    }
+
+    .conocenos-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
